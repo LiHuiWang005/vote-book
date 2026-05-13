@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>图书投票</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="page-header">
+        <div class="quote-panel">
+          <p class="eyebrow">MVP Book Voting</p>
+          <h1>图书投票</h1>
+          <blockquote>读书是在别人的思想帮助下，建立自己的思想。</blockquote>
+          <p class="quote-author">鲁巴金</p>
+        </div>
+
+        <section class="auth-panel" aria-label="用户登录注册">
+          <form class="auth-form" id="authForm">
+            <label class="field">
+              <span>用户名</span>
+              <input id="username" name="username" type="text" autocomplete="username" placeholder="输入用户名">
+            </label>
+            <label class="field">
+              <span>密码</span>
+              <input id="password" name="password" type="password" autocomplete="current-password" placeholder="输入密码">
+            </label>
+            <div class="auth-actions">
+              <button class="secondary-button" type="button" id="registerButton">注册</button>
+              <button class="primary-button" type="submit" id="loginButton">登录</button>
+            </div>
+          </form>
+
+          <div class="user-card" id="userCard" hidden>
+            <div>
+              <span class="user-label">当前用户</span>
+              <strong id="currentUsername"></strong>
+              <span class="role-badge" id="currentRole"></span>
+            </div>
+            <button class="secondary-button" type="button" id="logoutButton">退出</button>
+          </div>
+        </section>
+      </header>
+
+      <p class="page-summary">选择一本你最想推荐的书，登录后即可投票。管理员可以维护候选图书内容。</p>
+
+      <section class="status-bar" id="status" role="status" aria-live="polite">正在加载图书...</section>
+
+      <section class="admin-panel" id="adminPanel" aria-label="管理员图书管理" hidden>
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Admin</p>
+            <h2>图书管理</h2>
+          </div>
+          <p>调整候选图书的书名、作者、简介和封面地址。</p>
+        </div>
+        <div class="admin-list" id="adminBookList"></div>
+      </section>
+
+      <section class="book-grid" id="bookList" aria-label="候选图书列表"></section>
+    </main>
+
+    <script src="/app.js" defer></script>
+  </body>
+</html>

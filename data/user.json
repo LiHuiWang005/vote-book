@@ -1,0 +1,18 @@
+[
+  {
+    "id": "user-admin",
+    "username": "admin",
+    "passwordHash": "382b7855c59b4bd868a088c162dc8d242615b87e67ccc71f83b150083328890ce6acfd5704c1d9275351b375d1db4f468c66dba53aadbccc9dce7d7b146f0190",
+    "salt": "admin-demo-salt-2026",
+    "createdAt": "2026-05-13T00:00:00.000Z",
+    "role": "admin"
+  },
+  {
+    "id": "user-9c00b2bf-db9f-408f-9f7d-f253b02736a9",
+    "username": "hoo",
+    "passwordHash": "7ea2a4129772e0647d23b9637790897b43182a3b58960dce467ad52d1f82808a86fce973309bf47b92bf00e1d5f36f03851261804ed051df0715761ead069ac3",
+    "salt": "f47d7adc3b2b48d6428f7ff508f0ce61",
+    "createdAt": "2026-05-13T06:33:03.357Z",
+    "role": "user"
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "name": "vote-book",
+  "version": "1.0.0",
+  "description": "MVP web app for voting on books with Node.js and JSON file storage.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "book",
+    "vote",
+    "nodejs",
+    "mvp"
+  ],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": ">=18"
+  }
+}
