@@ -1,7 +1,7 @@
 {
   "book-001": {
     "bookId": "book-001",
-    "count": 0
+    "count": 2
   },
   "book-002": {
     "bookId": "book-002",
@@ -9,7 +9,7 @@
   },
   "book-003": {
     "bookId": "book-003",
-    "count": 1
+    "count": 0
   },
   "book-004": {
     "bookId": "book-004",
@@ -21,11 +21,11 @@
   },
   "book-006": {
     "bookId": "book-006",
-    "count": 4
+    "count": 1
   },
   "book-007": {
     "bookId": "book-007",
-    "count": 2
+    "count": 0
   },
   "book-008": {
     "bookId": "book-008",

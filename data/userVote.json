@@ -1,0 +1,20 @@
+{
+  "user-9c00b2bf-db9f-408f-9f7d-f253b02736a9": {
+    "userId": "user-9c00b2bf-db9f-408f-9f7d-f253b02736a9",
+    "total": 3,
+    "votes": [
+      {
+        "bookId": "book-001",
+        "createdAt": "2026-05-18T03:41:14.081Z"
+      },
+      {
+        "bookId": "book-001",
+        "createdAt": "2026-05-18T03:41:18.504Z"
+      },
+      {
+        "bookId": "book-006",
+        "createdAt": "2026-05-18T03:41:27.061Z"
+      }
+    ]
+  }
+}

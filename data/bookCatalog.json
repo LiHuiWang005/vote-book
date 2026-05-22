@@ -1,0 +1,93 @@
+[
+  {
+    "bookId": "book-001",
+    "title": "人类简史",
+    "aliases": [
+      "Sapiens",
+      "Sapiens: A Brief History of Humankind"
+    ],
+    "author": "尤瓦尔·赫拉利",
+    "description": "从认知革命到现代社会，梳理人类文明演化的关键路径。",
+    "coverUrl": "/covers/book-001.jpg",
+    "coverSource": "本地真实书籍封面：对应中文出版版本"
+  },
+  {
+    "bookId": "book-002",
+    "title": "原则",
+    "aliases": [
+      "Principles",
+      "Principles: Life and Work"
+    ],
+    "author": "瑞·达利欧",
+    "description": "关于生活、工作和组织管理的方法论，强调透明、复盘与决策质量。",
+    "coverUrl": "/covers/book-002.jpg",
+    "coverSource": "本地真实书籍封面：对应中文出版版本"
+  },
+  {
+    "bookId": "book-003",
+    "title": "文明、现代化、价值投资与中国",
+    "aliases": [
+      "文明现代化价值投资与中国"
+    ],
+    "author": "李录",
+    "description": "李录关于文明演进、现代化进程、价值投资方法和中国长期发展的思想文集。",
+    "coverUrl": "/covers/book-003.jpg",
+    "coverSource": "本地真实书籍封面：对应中文出版版本"
+  },
+  {
+    "bookId": "book-004",
+    "title": "小狗钱钱",
+    "aliases": [
+      "小狗钱钱。",
+      "Money oder das 1x1 des Geldes"
+    ],
+    "author": "博多·舍费尔",
+    "description": "通过女孩吉娅和会说话的小狗钱钱的故事，讲述梦想、储蓄、理财习惯和财富启蒙。",
+    "coverUrl": "/covers/book-004.jpg",
+    "coverSource": "本地真实书籍封面：对应中文出版版本"
+  },
+  {
+    "bookId": "book-005",
+    "title": "你是孩子的前传",
+    "aliases": [
+      "青春期父母的自我成长课"
+    ],
+    "author": "陈行甲",
+    "description": "面向青春期父母的自我成长课，围绕亲子沟通、原生家庭和成长陪伴，帮助父母成为孩子更稳定的支持。",
+    "coverUrl": "/covers/book-005.jpg",
+    "coverSource": "本地真实书籍封面：对应中文出版版本"
+  },
+  {
+    "bookId": "book-006",
+    "title": "思考，快与慢",
+    "aliases": [
+      "Thinking, Fast and Slow"
+    ],
+    "author": "丹尼尔·卡尼曼",
+    "description": "解释人类判断和决策中的双系统思维，帮助识别认知偏差。",
+    "coverUrl": "/covers/book-006.jpg",
+    "coverSource": "本地真实书籍封面：对应中文出版版本"
+  },
+  {
+    "bookId": "book-007",
+    "title": "逆龄大脑",
+    "aliases": [
+      "Keep Sharp"
+    ],
+    "author": "桑贾伊·古普塔",
+    "description": "你在任何年龄都可以构建一个更好的大脑。",
+    "coverUrl": "/covers/book-007.jpg",
+    "coverSource": "本地真实书籍封面：对应中文出版版本"
+  },
+  {
+    "bookId": "book-008",
+    "title": "穷查理宝典",
+    "aliases": [
+      "Poor Charlie's Almanack"
+    ],
+    "author": "查理·芒格",
+    "description": "汇集多元思维模型、投资判断和长期理性决策的实践智慧。",
+    "coverUrl": "/covers/book-008.jpg",
+    "coverSource": "本地真实书籍封面：对应中文出版版本"
+  }
+]
